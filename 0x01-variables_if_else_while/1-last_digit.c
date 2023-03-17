@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - program cheks whether random number is  greater than 5, is less than 6, or is 0
+ * main - checks whether random number is  greater than 5, is less than 6, or is 0
  *
  * Return: Always 0 (Success)
  */
