@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - diplays all possible combinations of two digits.
+ * main - displays possible number combinations between 00 to 89.
  *
  * Return: Always 0 (Success)
  */
@@ -17,14 +17,17 @@ int main(void)
 		i = 48;
 		while (i < 58)
 		{
-			putchar(j);
-			putchar(i);
-			if (i == 57 && j == 57)
+			if (j != i && j < i)
 			{
-				break;
+				putchar(j);
+				putchar(i);
+				if (i == 57 && j == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
 			i++;
 		}
 		j++;
