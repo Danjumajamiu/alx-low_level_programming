@@ -9,4 +9,5 @@
 9. 8-print-base16.c prints all the numbers of base 16 in lowercase, followed by a new line.
 10. 9-print-comb.c prints all possible combinations of single-digit numbers.
 11. 100-print-comb3.c prints all possible different combinations of two digits.
+12. 101-print-comb4.c prints all possible different combinations of three digits.
 
