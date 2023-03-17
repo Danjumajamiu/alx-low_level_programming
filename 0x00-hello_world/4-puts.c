@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * the main func is the entry point
+ * main - Entry point
  *
- * Return: Always 0 means code run is a Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
