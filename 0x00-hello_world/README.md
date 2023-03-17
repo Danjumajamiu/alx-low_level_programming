@@ -2,4 +2,5 @@
 2. 1-compiler is a script that compiles a C file but does not link.
 3. 2-assembler is  a script that generates the assembly code of a C code and saves it in an output file.
 4. 3-name is a script that compiles a C file and creates an executable named cisfun.
+5. 4-puts.c is a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 
