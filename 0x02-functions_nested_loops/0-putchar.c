@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void){
+int main(int c, void){
 	int _putchar(char c);
 	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count, sz;
