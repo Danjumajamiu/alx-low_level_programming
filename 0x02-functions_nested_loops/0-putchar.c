@@ -1,7 +1,6 @@
-#define _main.h_ "_main.h_"
+#define main.h "main.h"
 
-#include "_main.h_"
-
+#include "main.h"
 /**
  * main - Displays _putchar as a message.
  *
