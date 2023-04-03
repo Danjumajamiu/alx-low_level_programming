@@ -18,7 +18,7 @@ int main(void)
 	while (sum < 2772)
 	{
 		pass[index] = 33 + rand() % 94;
-		sum += password[index++];
+		sum += pass[index++];
 	}
 
 	pass[index] = '\0';
