@@ -1,13 +1,17 @@
 # include "main.h"
 
-/* main - will determine factorial of a given number
- * @n: number to be entered
- * Return: -1 if n less than 0
- *	0 if n is 0
+/**
+ * factorial - will Return the factorial of a given number.
+ * @n: The number to find the factorial of.
+ * Return: If n > 0 - the factorial of n.
+ *         If n < 0 - 1 to indicate an error.
  */
+
 	int factorial(int n)
-	{if (n<0)
-	{return -1;}
-	if (n==0)
-	{return 1;}
-	return n = n*factorial(n-1);}
+{
+	if (n < 0)
+		{return -1; }
+	if (n == 0)
+		{return 1; }
+	{return n = n * factorial(n - 1); }
+}
