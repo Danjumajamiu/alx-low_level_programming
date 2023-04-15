@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *append;
-	unsigned int lent = a, b;
+	unsigned int lent = n, b;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -27,7 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	lent = 0;
 	for (b = 0; s1[b]; b++)
 		append[lent++] = s1[b];
-	for (b = 0; s2[b] && b < a; b++)
+	for (b = 0; s2[b] && b < n; b++)
 		append[lent++] = s2[b];
 	append[lent] = '\0';
 	return (append);
