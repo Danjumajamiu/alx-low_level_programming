@@ -1,9 +1,8 @@
-#include <stdio.h>
-#ifndef DOG_H
-#define DOG_H
+#ifndef _DOG_H
+#define _DOG_H
 
 /*
- * struct dog - dog attributes
+ * struct dog - will collect dog information
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
