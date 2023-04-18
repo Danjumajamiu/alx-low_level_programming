@@ -1,13 +1,13 @@
 #ifndef _DOG_H
 #define _DOG_H
 
-/*
+/**
  * struct dog - contains dog attributes
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
  *
- * * Description: Longer description
+ * Description: Longer description
  */
 
 struct dog
