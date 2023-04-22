@@ -10,25 +10,25 @@
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list l;
-	unsigned int a;
+	va_list li;
+	unsigned int i;
 	char *str;
 
-	va_start(l, n);
+	va_start(li, n);
 
-	for (a= 0; a < n; a++)
+	for (i = 0; i < n; i++)
 	{
-	str = va_arg(l, char *);
+	str = va_arg(li, char *);
 	if (str == NULL)
 	printf("(nil)");
 	else
 	printf("%s", str);
 
-	if (a != (n - 1) && separator != NULL)
+	if (i != (n - 1) && separator != NULL)
 	printf("%s", separator);
 
 	}
 
 	printf("\n");
-	va_end(l);
+	va_end(li);
 }
